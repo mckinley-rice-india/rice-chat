@@ -7,11 +7,10 @@ import jwt_decode from 'jwt-decode';
 import * as ROUTES from './constants/routes';
 import login from './containers/login';
 import { BrowserRouter as Router, Route, Redirect} from "react-router-dom";
-
 	
 class App extends React.Component{
 	constructor() {
-		super();
+		super();       
 		this.state = {
 			tokenPresent: false
 		}
