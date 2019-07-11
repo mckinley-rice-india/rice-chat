@@ -45,8 +45,8 @@ class App extends React.Component{
 				        </React.Fragment>
 			    :
 			    	<React.Fragment>
-			        <Route exact path="/" component={login} />
-			        <Route exact path="/signup" component={signup} />
+			        	<Route exact path={ROUTES.LOG_IN} component={login} />
+				        <Route exact path={ROUTES.SIGN_UP} component={signup} />
 			        </React.Fragment>
 			    }
 			    </Router>

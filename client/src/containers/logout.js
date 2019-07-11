@@ -2,6 +2,7 @@ import axios from 'axios';
 import { BrowserRouter,Link,Redirect } from 'react-router-dom'
 import {Container, Row, Col} from 'react-bootstrap';
 import React, { Component } from 'react';
+import * as ROUTES from '../constants/routes';
 import signup from './signup';
 
 export default class logout extends React.Component
@@ -24,7 +25,7 @@ export default class logout extends React.Component
  
   	render(){
    			if(this.state.status){
-			    return <Redirect to='/'  />
+			    return <Redirect to={ROUTES.LOG_IN}  />
 			 }
 			else{
 			    return(

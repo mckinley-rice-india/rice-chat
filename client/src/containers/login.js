@@ -2,6 +2,7 @@ import axios from 'axios';
 import { BrowserRouter,Link,Redirect } from 'react-router-dom'
 import {Container, Row, Col} from 'react-bootstrap';
 import React, { Component } from 'react';
+import * as ROUTES from '../constants/routes';
 import signup from './signup';
 import sha256 from 'sha256';
 
@@ -56,13 +57,13 @@ export default class login extends React.Component
 
   		{const {status, subscribed, msg} = this.state;
   			if(status && subscribed){
-				return <Redirect to="/logout" />
+				return <Redirect to={ROUTES.LOG_OUT} />
 			 }
 			else 
 			{			
    				if(this.state.status===true && this.state.subscribed===false)
 				{
-					return <Redirect to="/subscribe" />
+					return <Redirect to={ROUTES.SUBSCRIBE} />
 				}
 				else{
 				    return(

@@ -1,6 +1,7 @@
 import { BrowserRouter,Link,Redirect } from 'react-router-dom'
 import {Container, Row, Col} from 'react-bootstrap';
 import React, { Component } from 'react';
+import * as ROUTES from '../constants/routes';
 import sha256 from 'sha256';
 
 export default class signup extends React.Component{
@@ -94,7 +95,7 @@ export default class signup extends React.Component{
 
    render(){
 	   	if(this.state.status){
-			    return <Redirect to='/'  />
+			    return <Redirect to={ROUTES.LOG_IN}  />
 			 }
 		else{
 
