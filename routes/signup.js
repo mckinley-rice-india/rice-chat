@@ -1,7 +1,7 @@
 const bodyParser = require('body-parser');
 const express = require('express');
 const router = express();
-const userFun=require('../models/userControl')
+const userFun=require('../models/User/userControl')
 
 router.post("/",async function(req,res){
 	console.log(req.body.email);

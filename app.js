@@ -9,8 +9,6 @@ const loginRoute=require('./routes/login');
 const mongoose = require('mongoose');
 const signupRoute=require('./routes/signup');
 const subscribe=require('./routes/subscription');
-const Users=require("./models/Schema/user");
-const userFunction=require('./models/userControl');
 
 mongoose.connect("mongodb://localhost:27017/login",{ useNewUrlParser: true })
 

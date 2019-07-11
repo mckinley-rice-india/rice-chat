@@ -2,7 +2,7 @@ const bodyParser = require('body-parser');
 const express = require("express");
 const router = express.Router();
 const stripe=require("../config/configStripe");
-const userFun=require('../models/userControl')
+const userFun=require('../models/User/userControl');
 
 router.post("/",function(req,res){
 	stripe.customers.create({

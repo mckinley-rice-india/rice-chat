@@ -3,7 +3,7 @@ const config = require('../config/config.json');
 const express = require('express');
 const jwt = require('jsonwebtoken');
 const router = express();
-const userFun=require('../models/userControl')
+const userFun=require('../models/User/userControl')
 
 
 router.post("/",async function(req,res){

@@ -1,4 +1,4 @@
-var Users=require("./Schema/user");
+var Users=require("./user");
 
 async function checkIfExists(email) {
 	console.log(email);
