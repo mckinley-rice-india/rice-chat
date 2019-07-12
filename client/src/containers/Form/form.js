@@ -14,13 +14,13 @@ export default function form() {
                         <img className="imgStyle" src={require('../../images/logo.jpg')} />
                         <div className="titleStyle">Ricechat</div>
                     </div>
-                    
+
                     <div className="text_Login">Have an account? Login.</div>
                     
                     <div className="email_Password">
                         <div>
-                        <i className="fa fa-user" aria-hidden="true"></i>
-                        <input type="text" value="" placeholder="Email/Username" />
+                            <i className="fa fa-user" aria-hidden="true"></i>
+                            <input type="text" value="" placeholder="Email/Username" />
                         </div>
                         <i class="fa fa-lock" aria-hidden="true"></i>
                         <input type="password" value="" placeholder="Password" />
