@@ -2,8 +2,6 @@
 
 # dependencies
 /.pnp
-node_modules/
-SampleApp/node_modules
 .pnp.js
 
 # testing
