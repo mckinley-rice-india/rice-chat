@@ -19,8 +19,6 @@
         height: 15%;
         margin-left: 25%;
         margin-top: 15px;
-
-
 }
 
 .titleStyle {
@@ -42,7 +40,7 @@
     border: none;
   }
   
-  .getting_started {
+.getting_started {
     background-color: rgb(255, 255, 255);
     position: absolute;
     width: 330px;
@@ -54,7 +52,7 @@
     font-family: Roboto;
   }
   
-  .text_Login {
+.text_Login {
     font-size: 14.657px;
     font-family: "Roboto";
     color: rgb(255, 255, 255);
@@ -65,19 +63,16 @@
     margin-bottom: 2em;
   }
   
-  .email_Password {
+.email_Password {
 	overflow: hidden;
 	font-size: 20px;
 	padding: 4px 0;
     margin: 14px;
     align-content: center;
-    margin-top: 3em;
-    
-    
-    
+    margin-top: 3em; 
   }
 
-  .email_Password input {
+.email_Password input {
 	border: none;
 	outline: none;
 	background: none;
